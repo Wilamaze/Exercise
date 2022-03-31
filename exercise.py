@@ -19,3 +19,5 @@ class Person:
 # Group Members putting their number and name here.
 orlando = Person(1, "Orlando Aguilar")
 print(orlando)
+yaseen = Person(2, "Yaseen Muhammad")
+print(yaseen)
