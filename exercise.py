@@ -9,10 +9,21 @@ class Person:
     """
     
     def __init__(self, number, name):
+        """Initializing class instance and attributes.
+
+        Args:
+            number (int): The number of the group member
+            name (str): The name of the group member.
+        """
         self.number = number
         self.name = name
     
     def __str__(self):
+        """The method that will print out the message
+
+        Returns:
+            String: Returns the number and the name of the group member
+        """
         return "Group Member Number " + str(self.number) + \
             " and their name is " + self.name + "!"
     
